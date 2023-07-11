@@ -1,8 +1,7 @@
-import React from "react";
 import { Outlet } from "react-router-dom";
-import SideBar from "./SideBar";
+import Sidebar from "./Sidebar";
 import Header from "./Header";
-import { styled } from "styled-components";
+import styled from "styled-components";
 
 const StyledAppLayout = styled.div`
   display: grid;
@@ -29,7 +28,7 @@ function AppLayout() {
   return (
     <StyledAppLayout>
       <Header />
-      <SideBar />
+      <Sidebar />
       <Main>
         <Container>
           <Outlet />

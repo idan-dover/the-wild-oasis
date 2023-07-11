@@ -1,6 +1,4 @@
-import React from "react";
 import styled from "styled-components";
-import Input from "./Input";
 
 const StyledFormRow = styled.div`
   display: grid;
